@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-3-14 19:59:24 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="hx.domain.hibernate.Role" table="role" catalog="test">
+        <id name="id" type="string">
+            <column name="id" length="100" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="100" />
+        </property>
+        <property name="value" type="string">
+            <column name="value" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>
